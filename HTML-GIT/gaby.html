@@ -3,93 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.CSS">
     <title>Tentang Saya</title>
 </head>
-<body style="background-color:lightblue;">
-    <header>
-        <h1>Selamat datang di halaman tentang saya!</h1>
+<body>
+    <header class="header">
+        <div class="Sayhai">
+            <h1>Selamat datang di halaman tentang saya!</h1>
+        </div>
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="#tentang saya">Tentang Saya</a></li>
+            <li><a href="#hobi">Hobi Saya</a></li>
+            <li><a href="#Aktivitas">Aktivitas Saya</a></li>
+            <li><a href="#link">Link Belajar</a></li>
+            <li><a href="#jadwal">Jadwal Kegiatan</a></li>
+        </ul>
+    </nav>
+
     <h3 align="center"><b>Hello, <color style="color: darkred;">I'm Gaby!</color></b></h3>
-    <p>Saya sedang belajar <i style="color: darkred;">HTML</i> dan 
-        <i style="color: darkblue;">Git</i>, 
+    <p align = "center">Saya sedang belajar <i style="color: darkred;">HTML</i> dan 
+        <i style="color: rgb(121, 121, 219);">Git</i>, 
         selain itu saya juga ingin belajar banyak hal. 
         Saya ingin menjadi <u style="color: darkgreen;">programmer yang handal</u>.</p>
 
-    
-    <h2>Foto</h2>
-    <img src="gabyswag.jpg" alt="Foto" width="100">
+    <section id="tentang saya" class="card">
+        <div class="ehsaya">
+                <h2>Tentang Saya</h2>
+                <p>
+                    Saya suka musik, bernyanyi,
+                    dan ada banyak hal yang saya suka. Selain itu,
+                    saya juga suka menonton film dan bermain game.
+                    Saya ingin menjadi seorang programmer yang handal
+                    dan bisa membuat aplikasi yang bermanfaat bagi banyak orang.
+                    Namun yang paling penting adalah saya ingin menjadi pribadi yang
+                    baik dan bermanfaat bagi orang lain.
+                </p>
+        </div>
+    </section>
 
-    <h2>Tentang Saya</h2>
-    <p>
-        Saya suka <color style="color: darkred;">musik</color>, 
-        <color style="color: darkblue;">bernyanyi</color>, 
-        dan ada banyak hal yang saya suka. Selain itu, 
-        saya juga suka menonton film dan bermain game. 
-        Saya ingin menjadi seorang programmer yang handal 
-        dan bisa membuat aplikasi yang bermanfaat bagi banyak orang. 
-        Namun yang paling penting adalah saya ingin menjadi pribadi yang 
-        baik dan bermanfaat bagi orang lain.
-    </p>
+    <section id="hobi" class="card">
+        <div class="hobigaby">
+            <h2>Hobi Saya</h2>
+            <p>
+                Hobi saya adalah mendengarkan musik, bernyanyi, menonton film, dan memasak.
+                Saya suka mendengarkan musik karena musik bisa membuat saya merasa lebih baik
+                dan bisa menghilangkan stres. Selain itu, saya juga suka bernyanyi karena
+                bernyanyi bisa membuat saya merasa lebih bahagia. Menonton film juga menjadi
+                salah satu hobi saya karena saya suka menonton film yang menarik dan bisa
+                membuat saya terhibur. Terakhir, saya juga suka memasak karena memasak bisa
+                membuat saya merasa lebih kreatif dan bisa membuat makanan yang enak.
+            </p>
+        </div>
+    </section>
 
-    <h2>Hobi Saya</h2>
-    <ul>
-        <li>Mendengarkan musik</li>
-        <li>Bernyanyi</li>
-        <li>Menonton film</li>
-        <li>Memasak</li>
-    </ul>
+    <section id="Aktivitas" class="card">
+        <div class="aktivitasgaby">
+            <h2>Aktivitas Saya</h2>
+            <p>
+                Aktivitas saya sehari-hari adalah kuliah, mengerjakan tugas, bermain dengan teman,
+                dan tidur. Saya kuliah setiap hari Senin sampai Jumat, dan mengerjakan tugas setiap
+                hari Sabtu dan Minggu. Selain itu, saya juga suka bermain dengan teman-teman saya
+                di waktu luang. Terakhir, saya juga suka tidur karena tidur bisa membuat saya merasa
+                lebih segar dan siap untuk menghadapi aktivitas selanjutnya.
+            </p>
+        </div>
+    </section>
 
-    <h2>Kegiatan</h2>
-    <ol>
-        <li>Kuliah</li>
-        <li>Mengerjakan tugas</li>
-        <li>Bermain dengan teman</li>
-        <li>Tidur haha</li>
-    </ol>
+     <article class="foto">
+        <div class="fotoimut">
+            <img src="gabyswag.jpg" alt="Foto" width="110">
+            <img src="temen.jpeg" alt="Foto" width="100">
+            <img src="mylove.jpeg" alt="Foto" width="100">
+            <img src="gabyy.jpeg" alt="Foto" width="100">
+            <img src="temen2.jpeg" alt="Foto" width="80">
+        </div>
+    </article>
 
-    <h2>Link</h2>
-    <p>
-        Saya belajar HTML di
-        <a href="https://www.w3schools.com/html/">W3Schools</a>.
-        selain itu, saya juga belajar di
-        <a href="https://www.youtube.com/">YouTube</a>.
-    </p>
+    <section class="card">
+        <div class="linkgaby">
+            <h2>Link Belajar</h2>
+            <p>
+                Saya belajar HTML dan CSS di
+                <a href="https://www.w3schools.com/html/">W3Schools</a>.
+                selain itu, saya juga belajar di
+                <a href="https://www.youtube.com/">YouTube</a>.
+            </p>
+    </section>
 
-    <h2>Jadwal</h2>
+    <section id="jadwal" class="card">
+        <div class="jadwalgaby">
+            <h2>Jadwal Kegiatan</h2>
+            <p>
+                Berikut adalah jadwal kegiatan saya selama seminggu:
+            <table border="1">
+                <tr>
+                    <th>No</th>
+                    <th>Hari</th>
+                    <th>Kegiatan</th>
+                    <th>Waktu</th>
+                </tr>
+            
+                <tr>
+                    <td>1</td>
+                    <td>Senin</td>
+                    <td>Kuliah</td>
+                    <td>08:00 - 12:00</td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td>Selasa</td>
+                    <td>kuliah padat</td>
+                    <td>Seharian</td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td>Rabu</td>
+                    <td>Mengerjakan tugas</td>
+                    <td>10:00 - 12:00</td>
+                </tr>
 
-    <table border="1">
-        <tr>
-            <th>No</th>
-            <th>Hari</th>
-            <th>Kegiatan</th>
-            <th>Waktu</th>
-        </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Kamis</td>
+                    <td>Bermain dengan teman</td>
+                    <td>14:00 - 16:00</td>
+                </tr>
 
-        <tr>
-            <td>1</td>
-            <td>Senin</td>
-            <td>Kuliah</td>
-            <td>08:00 - 12:00</td>
-        </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Jumat</td>
+                    <td>Belajar</td>
+                    <td>08:00 - 12:00</td>
+                </tr>
 
-        <tr>
-            <td>2</td>
-            <td>Selasa</td>
-            <td>Waktu istirahat</td>
-            <td>Seharian</td>
-        </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Sabtu</td>
+                    <td>Mengerjakan tugas</td>
+                    <td>10:00 - 12:00</td>
+                </tr>
 
-        <tr>
-            <td>3</td>
-            <td>Rabu</td>
-            <td>Mengerjakan tugas</td>
-            <td>10:00 - 12:00</td>
-        </tr>
-    </table>
+                <tr>
+                    <td>7</td>
+                    <td>Minggu</td>
+                    <td>Istirahat</td>
+                    <td>Seharian</td>
+                </tr>
+            </table>
+
+            </p>
+    </section>
 
     <p align="right">
-        Terimakasih sudah membaca.
+        <b>Terima kasih telah mengunjungi halaman tentang saya!</b>
     </p>
 </body>
 </html>

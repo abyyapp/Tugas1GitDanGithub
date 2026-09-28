@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(134, 245, 193);
+    line-height: 1.6;
+}
+.header, .Sayhai {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(
+        90deg,
+        rgb(134, 245, 193),
+        rgb(160, 208, 244)
+    );
+    color: rgb(148, 86, 229);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: rgb(121, 121, 219);
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: yellow;
+    transform: scale(1.1);
+}
+.ehsaya,
+.hobigaby,
+.aktivitasgaby {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(160, 208, 244);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.ehsaya h2,
+.hobigaby h2,
+.aktivitasgaby h2 {
+    color: darkred;
+    margin-bottom: 10px;
+}
+.card {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(160, 208, 244);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+.foto {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(13, 97, 208, 0.4);
+}
+.fotoimut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.fotoimut img {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.fotoimut img:hover {
+    transform: scale(1.1);
+}
+.jadwalgaby {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(160, 208, 244);
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    margin-top: 15px;
+}
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: rgb(121, 121, 219);
+    color: white;
+}
+.card a {
+    color: darkblue;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.card a:hover {
+    color: darkgreen;
+}
+.penutup {
+    text-align: right;
+    margin: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .card {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .foto {
+        margin: 10px;
+    }
+
+    .fotoimut {
+        flex-direction: column;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}

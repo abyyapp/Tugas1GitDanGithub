@@ -1,42 +1,30 @@
-
-/* Mengatur tampilan dasar halaman */
 * {
     box-sizing: border-box;
-}
-
-body {
+}body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
     background: linear-gradient(to right, #e3f2fd, #ffffff);
     color: #222;
-}
-
-/* Bagian identitas */
-header {
+}header {
     border: 2px solid black;
     padding: 15px;
     margin-bottom: 20px;
     text-align: center;
     background-color: white;
 }
-
 header img {
     border-radius: 8px;
     object-fit: cover;
 }
-
-/* Bagian utama */
 main {
     max-width: 650px;
     margin: auto;
 }
-
 h1 {
     text-align: center;
     color: #1565c0;
 }
-
 section {
     border: 1px solid #777;
     background-color: white;
@@ -45,31 +33,25 @@ section {
     border-radius: 8px;
     box-shadow: 0 3px 8px #00000020;
 }
-
 label {
     display: block;
     margin-top: 10px;
     margin-bottom: 5px;
 }
-
-input,
-select {
+input, select {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #999;
     border-radius: 5px;
 }
-
 input[type="radio"] {
     width: auto;
     margin-right: 8px;
 }
-
 .radio-item {
     margin: 10px 0;
 }
-
 button {
     padding: 10px 20px;
     border: none;
@@ -79,17 +61,13 @@ button {
     cursor: pointer;
     transition: 0.3s;
 }
-
 button:hover {
     background-color: #0d47a1;
     transform: scale(1.03);
 }
-
 #hasil {
     line-height: 1.8;
 }
-
-/* Tampilan untuk layar kecil */
 @media (max-width: 600px) {
     body {
         padding: 10px;

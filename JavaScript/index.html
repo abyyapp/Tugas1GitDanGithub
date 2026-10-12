@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Pilihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="sia.png" alt="Foto mahasiswa" width="120">
+        <h2>Nama: Gabriela Angelina Olivia Hure</h2>
+            <h2>NIM: 255314148</h2>
+    </header>
+
+    <main>
+        <h1>Program Pilihan</h1>
+
+        <section>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" placeholder="Masukkan nama">
+            
+            <label for="jumlah">Jumlah pilihan:</label>
+            <input type="number" id="jumlah" min="1" max="20"
+                   placeholder="Masukkan jumlah pilihan">
+
+            <button id="okNama">OK</button>
+        </section>
+
+        <section id="bagianPilihan" hidden>     
+            <h3>Masukkan pilihan kamu</h3>
+            <div id="inputPilihan"></div>
+            <button id="okTeks">OK</button>
+        </section>
+
+        <section id="bagianRadio" hidden>
+            <h3>Pilih salah satu pilihan</h3>
+            <div id="daftarRadio"></div>
+
+            <label for="dropdown">Atau pilih melalui dropdown:</label>
+            <select id="dropdown">
+                <option value="">-- Pilih --</option>
+            </select>
+
+            <button id="okPilihan">OK</button>
+        </section>
+
+        <section id="bagianEmail" hidden>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="contoh@email.com">
+            <button id="okEmail">OK</button>
+        </section>
+
+        <section id="bagianHasil" hidden>
+            <h3>Hasil</h3>
+            <p id="hasil"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
